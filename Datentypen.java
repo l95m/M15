@@ -1,45 +1,51 @@
-public class Datentypen {
+package ialPackage;
+
+public class Datentypen2 {
 
 	public static void main(String[] args) {
 	
 	// Ganze Zahlen
-		byte eineKleineZahl = ; 
+		byte eineKleineZahl = 127; 
 		System.out.println("byte: " + eineKleineZahl);			
 		
-		short wert = ;								 
+		short wert = 32000;								 
 		System.out.println("short: " + wert);					
 		
-		int zahl = ;								
+		int zahl = 20000000;								
 		System.out.println("int: " + zahl);					
 		
-		long einLongWert = ;						
+		long einLongWert = 2000000000000L;					// Typzuweisung über "l" bzw. "L"	
 		System.out.println("long: " + einLongWert);	
 			
 	// Gleitkomma Zahlen
 		
-		float einFloat = ;							
+		float einFloat = 5.604F;							// Typzuweisung über "f" bzw. "F"		
 		System.out.println("float: " + einFloat);				
 		
-		double kommaZahl = ;
+		double kommaZahl = 24.87;
 		System.out.println("double: " + kommaZahl);
 	
 	// char --> Zeichen Datentyp (char für Character)
 	
-		char einZeichen = ; 							
+		char einZeichen = '&'; 							
 		System.out.println("char Zeichen : " + einZeichen);
 		
-		char einZeichenMitUnicode = ;
+		char einZeichenMitUnicode = '\u003F';
 		System.out.println("char mit Unicode: " + einZeichenMitUnicode);
 		
-		char einZeichenMitDezimal = ;
+		char einZeichenMitDezimal = 63;
 		System.out.println("char mit dezimal Zahl: " + einZeichenMitDezimal);
 		
-		char einZeichenMitBinaer = ;
+		char einZeichenMitBinaer = 0b0001111;
 		System.out.println("char mit Dual Zahl: " + einZeichenMitBinaer);
 		
 		
-	// boolean - Wahrheits Datentyp
+	// boolean - Logik Datentyp
 		
-		boolean isTrue = ;
-		boolean isFalse = ;
+		boolean isTrue = true;
+		boolean isFalse = false;
 		System.out.println("boolean: " + isTrue + " / " + isFalse);
+		
+	}
+	
+}
